@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    background-color:rgb(208, 203, 203);
+}
+
+.mainbox{
+
+    display: flex;
+    justify-content: center;
+    
+  
+
+}
+
+.btn{
+    height:200px;
+    width:200px;
+    border-radius: 20%;
+    border:10px solid black;
+    margin: 2rem;
+    margin-top: 2rem;  
+
+
+}
+
+.red{
+    background-color: red;
+ 
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color:green;
+}
+
+.blue{
+    background-color:blue;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: rgb(238, 155, 181);
+}
+.score{
+    display: flex;
+    
+    justify-content: space-between;
+    margin-left: 515px;
+    margin-right: 515px;
+    font-weight: bolder;
+
+}
