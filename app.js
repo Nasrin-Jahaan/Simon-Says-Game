@@ -42,7 +42,7 @@ document.addEventListener("keypress", function () {
     level++;
     h2.innerText= `level ${level}`;
 //choosing random index between 0-3
-let ranIndx = Math.floor(Math.random() * 3 );
+let ranIndx = Math.floor(Math.random() * 4 );
 let ranColr =  btns[ranIndx];
 let ranbtn = document.querySelector(`.${ranColr}`);
 // console.log(ranIndx);
